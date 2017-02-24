@@ -2,10 +2,21 @@
   min-width: 20%;
   min-height: 150px;
   float: left;
+  color: white;
   background-color: green;
 }
 
 .content {
   float: right;
   width: 70%;
+}
+
+.jumbotron1 {
+  text-align: center;
+  color: white;
+  background-color: purple;
+}
+
+.h2 {
+  color: orange;
 }
