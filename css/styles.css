@@ -1,0 +1,11 @@
+.sidebar {
+  min-width: 20%;
+  min-height: 150px;
+  float: left;
+  background-color: green;
+}
+
+.content {
+  float: right;
+  width: 70%;
+}

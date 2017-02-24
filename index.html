@@ -4,33 +4,55 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css"="text/css">
 </head>
 
 <body>
   <title>Ping-Pong</title>
+  <h1 class="hdr">Ping-Pong</h1>
   <div class="jumbotron">
     <div class="container">
-      <div class="content">
-        <form id="pingPongForm">
-          <h1>Let's play!</h1>
-          <h2>Rules!</h2>
-          <p>PingPong will count your number with the following exceptions</p>
-          <ol>
-            <li>Numbers divisible by 3 becomes "ping"</li>
-            <li>Numbers divisible by 5 becomes "pong"</li>
-            <li>Numbers divisible by 15 becomes "pingpong"</li>
-          </ol>
-          <div class="form-group">
-            <label for="number">Enter your number please:</label>
-            <input id="number" class="formcontrol" required="" type="text"></input>
-            <button class="btn btn-secondary">Ping-Pong!</button>
-          </div>
-          <div id="userOutput"></div>
-        </form>
+      <div class="col-md-2">
+        <div class="sidebar">
+          <h2>About Pingpong</h2>
+          <h2>Created by:</h2><br>
+          <p>Paul Nderitu</p>
+          <h2>GitHub Username/URL:</h2>
+          <p>paulnderitu</p>
+          <h2>Level 2 Test for:</h2>
+          <p>Javascript</p>
+
+
+        </div>
+        <!--end of sidebar-->
       </div>
+      <!--end of col-md-2-->
+      <div class="col-md-10">
+        <div class="content">
+          <form id="pingPongForm">
+            <h1>Let's play!</h1>
+            <h2>Rules!</h2>
+            <p>PingPong will count your number with the following exceptions</p>
+            <ol>
+              <li>Numbers divisible by 3 becomes "ping"</li>
+              <li>Numbers divisible by 5 becomes "pong"</li>
+              <li>Numbers divisible by 15 becomes "pingpong"</li>
+            </ol>
+            <div class="form-group">
+              <label for="number">Enter your number please:</label>
+              <input id="number" class="formcontrol" required="" type="text"></input>
+              <button class="btn btn-secondary">Ping-Pong!</button>
+            </div>
+            <div id="userOutput"></div>
+          </form>
+        </div>
+        <!--end of content-->
+      </div>
+      <!--end of col-md-10-->
     </div>
+    <!--end of container-->
   </div>
+  <!--end of jumbotron-->
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
